@@ -1,7 +1,7 @@
 {
   "name": "express",
   "description": "Fast, unopinionated, minimalist web framework",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "contributors": [
     "Aaron Heckmann <aaron.heckmann+github@gmail.com>",
@@ -14,7 +14,11 @@
   ],
   "license": "MIT",
   "repository": "expressjs/express",
-  "homepage": "http://expressjs.com/",
+  "homepage": "https://expressjs.com/",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/express"
+  },
   "keywords": [
     "express",
     "framework",
@@ -32,7 +36,7 @@
     "body-parser": "^2.0.1",
     "content-disposition": "^1.0.0",
     "content-type": "~1.0.4",
-    "cookie": "0.6.0",
+    "cookie": "0.7.1",
     "cookie-signature": "^1.2.1",
     "debug": "4.3.6",
     "depd": "2.0.0",
@@ -52,10 +56,8 @@
     "qs": "6.13.0",
     "range-parser": "~1.2.1",
     "router": "^2.0.0",
-    "safe-buffer": "5.2.1",
     "send": "^1.1.0",
     "serve-static": "^2.1.0",
-    "setprototypeof": "1.2.0",
     "statuses": "2.0.1",
     "type-is": "^2.0.0",
     "utils-merge": "1.0.1",
